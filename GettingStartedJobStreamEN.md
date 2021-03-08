@@ -20,7 +20,7 @@ The endpoints for the ads stream API are:
 
 The most obvious use case for JobStream is to keep an up to date copy of all the currently published ads in a local database. A good starting point would be to download a snapshot to get all the currently open ads and then ad to that by making repeated calls to the stream to get the latest updates.
 
-![JobStream database workflow](JobStream.png)
+![JobStream database workflow](https://github.com/Jobtechdev-content/Jobstream-content/blob/develop/JobStream.png?raw=true)
 
 The easiest way to try out the API is to go to the [swagger page](https://jobstream.api.jobtechdev.se/).
 But first you need a key to authenticate yourself.
