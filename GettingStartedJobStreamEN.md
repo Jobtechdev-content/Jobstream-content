@@ -22,6 +22,7 @@ The most obvious use case for JobStream is to keep an up to date copy of all the
 
 ![JobStream database workflow](https://github.com/Jobtechdev-content/Jobstream-content/blob/develop/JobStream.png?raw=true)
 
+
 The easiest way to try out the API is to go to the [swagger page](https://jobstream.api.jobtechdev.se/).
 But first you need a key to authenticate yourself.
 
