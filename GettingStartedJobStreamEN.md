@@ -69,7 +69,7 @@ https://github.com/JobtechSwe/getting-started-code-examples
 If you’re looking for more advanced search options, please check our [JobSearch API](https://jobtechdev.se/docs/apis/jobsearch/).
 
 ## Results
-The results of your queries will be in [JSON](https://en.wikipedia.org/wiki/JSON) format. We won't attempt to explain the ad objects attribute by attribute in this document. Instead we've decided to try to include this in the data model which you can find in our [Swagger GUI](https://jobsearch.api.jobtechdev.se) for JobSearch.
+The results of your queries will be in [JSON](https://en.wikipedia.org/wiki/JSON) format. We won't attempt to explain the ad objects attribute by attribute in this document. Instead we've decided to try to include this in the data model which you can find in our [Swagger GUI](https://jobsearch.api.jobtechdev.se) for JobSearch. There's also 
 
 Successful queries will have a response code of 200 and give you a result set that consists of the ad events that happened within the timespan you set. 
 
@@ -89,7 +89,7 @@ A removal object looks like this:
 	    "country": "i46j_HmG_v64"
 	  }
 
-These are typically grouped together in your result set so if you're request has a larger timespan than a few minutes you may have to scroll to se actual job ads.
+These are typically grouped together in your result set so if you're request has a larger timespan than a few minutes you may have to scroll to se actual job ads. Please note that these dissappear after 90 days. 90 days is not in any way a recommendation on how far back your calls should go. Ideally you will make calls for as short time periods as possible. JobStream endpoint is not meant to fetch old ads.
 
 ## Errors
 Unsuccessful queries will have a response code of:
